@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="BR-PT">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+        <title>Decodificador</title>
+    </head>
+    <body>
+        <header >
+            <img class="logoalura" src="logoalura.png" alt="Logo da Alura com a inicial A">
+        </header>
+    <main class="main">
+        <section class="texto">
+        
+            <textarea  id="input-texto" class="input-texto" cols="30" rows="6" placeholder="Digite seu texto"></textarea>
+               
+            <div>
+                  <h1 class="informacao">Apenas letras minúsculas e sem acentos nem caracteres especiais.</h1>
+            </div>
+
+            <div class="botoes">
+                <button class="encriptar" onclick="btnEncriptar()">
+                    Criptografar
+                </button>
+                    
+                <button class="descriptar" onclick="btnDescriptar()">
+                        Descriptografar
+                </button>               
+            </div>
+         </section>
+         
+        <section class="caixa">                           
+            
+            <textarea id="idUnica" class="mensagem" cols="18" rows="8" ></textarea>
+            
+                <button id="idBotao" class="copiar" onclick="btnCopiar()">
+                    Copiar
+                 </button>  
+
+                <button class="limpar" onclick="btnLimpar()">
+                 Limpar
+                </button>             
+                        
+                <img id="menino" class="imagem" src="meninofigma.png" alt="Menino com uma lupa nas mãos"/>
+                                                             
+        </section>
+    
+   </main>
+     <script src="script.js"></script>
+            <footer>
+
+                 <p class="rodape">&copy;Luciana Gerboni - 2022 - (Challenge Alura)</p>
+                 <img class="logorodape" src="logoalura.png" alt="Logo alura com a letra A">
+
+            </footer>
+    </body>
+</html>
